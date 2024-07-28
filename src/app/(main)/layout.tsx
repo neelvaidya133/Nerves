@@ -2,7 +2,7 @@ import { validateRequest } from "@/auth";
 import { redirect } from "next/navigation";
 import SessionProvider from "./sessionProvider";
 import Navbar from "./Navbar";
-import MenuBar from "./Menubar";
+import MenuBar from "./MenuBar";
 export default async function Layout({
   children,
 }: {
